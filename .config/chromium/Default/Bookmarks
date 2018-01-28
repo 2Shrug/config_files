@@ -1,0 +1,81 @@
+{
+   "checksum": "eff179cdea37a359fc96af6b51171f3e",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13102446837000000",
+            "id": "5",
+            "name": "Manjaro Linux",
+            "type": "url",
+            "url": "https://manjaro.org/"
+         }, {
+            "date_added": "13102446886000000",
+            "id": "6",
+            "name": "Manjaro Wiki",
+            "type": "url",
+            "url": "https://wiki.manjaro.org/index.php?title=Main_Page"
+         }, {
+            "date_added": "13102446920000000",
+            "id": "7",
+            "name": "Manjaro Forum",
+            "type": "url",
+            "url": "https://forum.manjaro.org/"
+         }, {
+            "date_added": "13161545214900011",
+            "id": "8",
+            "meta_info": {
+               "last_visited_desktop": "13161610461516819"
+            },
+            "name": "/g/ - Technology - Catalog - 4chan",
+            "type": "url",
+            "url": "http://boards.4chan.org/g/catalog"
+         }, {
+            "date_added": "13161552462732862",
+            "id": "9",
+            "name": "Pocket",
+            "type": "url",
+            "url": "https://getpocket.com/"
+         }, {
+            "date_added": "13161577604936924",
+            "id": "11",
+            "meta_info": {
+               "last_visited_desktop": "13161622156212039"
+            },
+            "name": "#rice - list o' resources",
+            "type": "url",
+            "url": "https://rizonrice.github.io/resources"
+         }, {
+            "date_added": "13161586566917751",
+            "id": "13",
+            "meta_info": {
+               "last_visited_desktop": "13161609673475584"
+            },
+            "name": "Qr-code-ver-10.png (220×220)",
+            "type": "url",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Qr-code-ver-10.png"
+         } ],
+         "date_added": "13161544828485119",
+         "date_modified": "13161617741667131",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13161544828485123",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13161544828485125",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

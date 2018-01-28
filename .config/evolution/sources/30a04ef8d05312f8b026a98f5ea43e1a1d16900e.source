@@ -1,0 +1,28 @@
+[Data Source]
+DisplayName=necrobancer@hotmail.com
+Enabled=true
+Parent=1f8573797e08cde42959ba876962e5844a10c234
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://1f8573797e08cde42959ba876962e5844a10c234/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=necrobancer@hotmail.com
+Aliases=
+Name=shrug
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://1f8573797e08cde42959ba876962e5844a10c234/Sent
+TransportUid=ccec899e863a4053ba65944e0080b81538779f25
+RepliesToOriginFolder=false
+UseSentFolder=true

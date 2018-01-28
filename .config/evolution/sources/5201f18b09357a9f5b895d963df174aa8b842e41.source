@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=George.Vlachakis@outlook.com
+Enabled=true
+Parent=b8573d9437cb5c89e0cd61582d6d67afb62e414d
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp-mail.outlook.com
+Method=LOGIN
+Port=587
+ProxyUid=system-proxy
+RememberPassword=true
+User=George.Vlachakis@outlook.com
+CredentialName=
+
+[Security]
+Method=starttls-on-standard-port

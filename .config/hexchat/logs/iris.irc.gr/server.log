@@ -1,0 +1,88 @@
+**** BEGIN LOGGING AT Sun Jan 28 02:08:44 2018
+
+Ιαν 28 02:08:44 *	Welcome to the GRNet IRC Network shrug!shrug@46.12.85.45.dsl.dyn.forthnet.gr
+Ιαν 28 02:08:44 *	Your host is iris.irc.gr, running version bahamut-1.8.9+grnet(0.34)+urlprotect+greeklish+opermask+j1+ssl_high
+Ιαν 28 02:08:44 *	This server was created Tue Mar 8 2016 at 20:55:45 CET
+Ιαν 28 02:08:44 *	iris.irc.gr bahamut-1.8.9+grnet(0.34)+urlprotect+greeklish+opermask+j1+ssl_high aAbcCdefFghiIjkKmnoOrRsSwxXyut bceiIjklLmMnoOprRsStv
+Ιαν 28 02:08:44 *	NETWORK=GRNet SAFELIST MAXBANS=200 MAXCHANNELS=10 CHANNELLEN=32 KICKLEN=307 NICKLEN=30 TOPICLEN=307 MODES=6 CHANTYPES=# CHANLIMIT=#:10 PREFIX=(ov)@+ STATUSMSG=@+ :are available on this server
+Ιαν 28 02:08:44 *	CASEMAPPING=ascii WATCH=128 SILENCE=10 ELIST=cmntu EXCEPTS INVEX CHANMODES=beI,k,jl,cimMnOprRst MAXLIST=b:200,e:100,I:100 TARGMAX=DCCALLOW:,JOIN:,KICK:4,KILL:20,NOTICE:20,PART:,PRIVMSG:20,WHOIS:,WHOWAS: :are available on this server
+Ιαν 28 02:08:44 *	There are 7 users and 304 invisible on 5 servers
+Ιαν 28 02:08:44 *	10 :IRC Operators online
+Ιαν 28 02:08:44 *	212 :channels formed
+Ιαν 28 02:08:44 *	I have 102 clients and 2 servers
+Ιαν 28 02:08:44 *	Current local users: 102 Max: 372
+Ιαν 28 02:08:44 *	Current global users: 311 Max: 639
+Ιαν 28 02:08:44 *	*** Notice -- motd was last changed at 8/3/2016 18:19
+Ιαν 28 02:08:44 *	*** Notice -- Please read the motd if you haven't read it
+Ιαν 28 02:08:44 *	- iris.irc.gr Message of the Day - 
+Ιαν 28 02:08:44 *	-  ********************* Welcome to GRNet iris.irc.gr *******************************
+Ιαν 28 02:08:44 *	-  **********************************************************************************
+Ιαν 28 02:08:44 *	-  
+Ιαν 28 02:08:44 *	-         .__       .__            .__                                   
+Ιαν 28 02:08:44 *	-         |__|______|__| ______    |__|______   ____         ___________ 
+Ιαν 28 02:08:44 *	-         |  \_  __ \  |/  ___/    |  \_  __ \_/ ___\       / ___\_  __ \
+Ιαν 28 02:08:44 *	-         |  ||  | \/  |\___ \     |  ||  | \/\  \___      / /_/  >  | \/
+Ιαν 28 02:08:44 *	-         |__||__|  |__/____  > /\ |__||__|    \___  > /\  \___  /|__|   
+Ιαν 28 02:08:44 *	-                           \/  \/                 \/  \/ /_____/        
+Ιαν 28 02:08:44 *	-  
+Ιαν 28 02:08:44 *	- 
+Ιαν 28 02:08:44 *	-  **********************************************************************************
+Ιαν 28 02:08:44 *	-  ******************** Users have ZERO RIGHTS on this server. **********************
+Ιαν 28 02:08:44 *	-  **************** ACCESS TO THIS SERVER IS A PRIVILEGE,NOT A RIGHT! ***************
+Ιαν 28 02:08:44 *	-  ********************************************************************************** 
+Ιαν 28 02:08:44 *	-                         
+Ιαν 28 02:08:44 *	-                          Admin: Locke (chojin_locke@mail.com)
+Ιαν 28 02:08:44 *	-                                                                       
+Ιαν 28 02:08:44 *	-                   This is an UNSUPPORTED SERVICE provided based
+Ιαν 28 02:08:44 *	-                   on the good-will of the server's administrators.
+Ιαν 28 02:08:44 *	-   
+Ιαν 28 02:08:44 *	-                           USE it, DO NOT ABUSE it!
+Ιαν 28 02:08:44 *	-                                                                      		          
+Ιαν 28 02:08:44 *	-                                                                       
+Ιαν 28 02:08:44 *	-                 Ignorance of this message is no excuse for lameness.
+Ιαν 28 02:08:44 *	-                                                                       
+Ιαν 28 02:08:44 *	-                  Information About Gr-Net Is Hosted At: www.irc.gr 
+Ιαν 28 02:08:44 *	- 
+Ιαν 28 02:08:44 *	-            * Ports available on this server are 6666, 6667, 6668 and 6669 *
+Ιαν 28 02:08:44 *	-                          
+Ιαν 28 02:08:44 *	-                          * SSL enabled port: 7010 *
+Ιαν 28 02:08:44 *	-                                                                       
+Ιαν 28 02:08:44 *	-                                                                       
+Ιαν 28 02:08:44 *	-                                *** DISCLAIMER ***                        
+Ιαν 28 02:08:44 *	-           THE ADMINISTRATOR AND THE OPERATORS OF THIS SERVER BEAR *NO*   
+Ιαν 28 02:08:44 *	-           RESPONSIBILITY FOR THE DATA EXCHANGED WHEN USING THE SERVICE   
+Ιαν 28 02:08:44 *	-    
+Ιαν 28 02:08:44 *	-           THIS INCLUDES MP3, DIVX, (S)VCD, WAREZ, GAMES, DOCUMENTS AND   
+Ιαν 28 02:08:44 *	-           ANY OTHER TYPE OF CONTENT .  WE DO NOT GUARANTEE PRIVACY NOR   
+Ιαν 28 02:08:44 *	-           RECOGNISE ANY KIND OF DISCLOSURE AGREEMENT TOWARDS AGENCIES,   
+Ιαν 28 02:08:44 *	-           ORGANISATIONS OR INDIVIDUALS.                                  
+Ιαν 28 02:08:44 *	-        
+Ιαν 28 02:08:44 *	-  	*** SERVER RULES ***
+Ιαν 28 02:08:44 *	-  
+Ιαν 28 02:08:44 *	-  * NO fileServers allowed
+Ιαν 28 02:08:44 *	-  * NO flooding is allowed on this server
+Ιαν 28 02:08:44 *	-  * NO Massmodes, take-overs, net hack deops and network abuse
+Ιαν 28 02:08:44 *	-  * NO criminal/illegal activities according to laws
+Ιαν 28 02:08:44 *	-  * NO illegal software/movies/mp3/porno sharing/distributing
+Ιαν 28 02:08:44 *	-  * Unauthorized bots/bnc's/eggdrops are not allowed (please see http://auth-db.irc.gr/)
+Ιαν 28 02:08:44 *	-  * User harassment is strictly FORBIDDEN
+Ιαν 28 02:08:44 *	-  * Rules may change without further notice
+Ιαν 28 02:08:44 *	-  * We Reserve the Right to Deny Access for any Reason
+Ιαν 28 02:08:44 *	-  * Access to this GRNET Server is a Privilege not a Right
+Ιαν 28 02:08:44 *	-  * Authorities (police and other government agencies) will be helped to 
+Ιαν 28 02:08:44 *	-    track down a user or any other investigation by the staff of this 
+Ιαν 28 02:08:44 *	-    server without the need procurator's order
+Ιαν 28 02:08:44 *	-  * Access to Underage people (under eighteen (18) years old)
+Ιαν 28 02:08:44 *	-    is permitted only under parental approval
+Ιαν 28 02:08:44 *	-  * Users must agree with all the above rules in order to join this server
+Ιαν 28 02:08:44 *	End of /MOTD command.
+Ιαν 28 02:08:44 *	*** Notice -- This server runs an open proxy monitor to prevent abuse.
+Ιαν 28 02:08:44 *	*** Notice -- If you see connections on various ports from iris.irc.gr
+Ιαν 28 02:08:44 *	*** Notice -- please disregard them, as they are the monitor in action.
+Ιαν 28 02:08:44 *	*** Notice -- For more information please visit http://faq.irc.gr/proxy
+Ιαν 28 02:08:44 *	shrug sets mode +i on shrug
+Ιαν 28 02:08:44 -GRnet-	[Logon News - Aug 06 2013] PROSOXI: Exoun parousiastei krousmata klophs nick kai kanaliwn. An bainete se alla irc-dyktia, ektos tou GrNet, gia diki sas asfaleia sas synistoume na apofeygete na xrisimopoieite tous idious kwdikous gia ta nick sas kai ta kanalia sas. #1
+Ιαν 28 02:08:44 -GRnet-	[Logon News - May 16 2005] Gia na eiste sigouroi oti 8a mporesete na anakthsete ton kwdiko tou nick sas se periptwsh pou ton xasete, parakaloume na pros8esete APO TWRA to e-mail sas sta stoixeia tou nick sas. Plhktrologhste /NS HELP SET EMAIL gia perissotera 'h enhmerw8eite sto kanali #help.
+Ιαν 28 02:08:44 -GRnet-	[Logon News - Sep 02 2003] PROSOXH: Den mpainoume pote se istoselides pou mas lene agnwstoi (synh8ws me prive mhnymata) giati kata 90% periexoun ious.  Gia na apallageite apo ious dokimaste to www.trojanfix.in.irc.gr Gia perissotera symbouleuteite tous chanopers sta kanalia #help kai #hellas-opers.
+**** ENDING LOGGING AT Sun Jan 28 02:08:58 2018
+

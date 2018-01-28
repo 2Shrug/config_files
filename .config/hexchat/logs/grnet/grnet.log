@@ -1,0 +1,89 @@
+**** BEGIN LOGGING AT Sun Jan 28 02:07:59 2018
+
+Ιαν 28 02:07:59 *	NETWORK=GRNet SAFELIST MAXBANS=200 MAXCHANNELS=10 CHANNELLEN=32 KICKLEN=307 NICKLEN=30 TOPICLEN=307 MODES=6 CHANTYPES=# CHANLIMIT=#:10 PREFIX=(ov)@+ STATUSMSG=@+ :are available on this server
+Ιαν 28 02:07:59 *	CASEMAPPING=ascii WATCH=128 SILENCE=10 ELIST=cmntu EXCEPTS INVEX CHANMODES=beI,k,jl,cimMnOprRst MAXLIST=b:200,e:100,I:100 TARGMAX=DCCALLOW:,JOIN:,KICK:4,KILL:20,NOTICE:20,PART:,PRIVMSG:20,WHOIS:,WHOWAS: :are available on this server
+Ιαν 28 02:07:59 *	There are 7 users and 309 invisible on 5 servers
+Ιαν 28 02:07:59 *	9 :IRC Operators online
+Ιαν 28 02:07:59 *	212 :channels formed
+Ιαν 28 02:07:59 *	I have 33 clients and 1 servers
+Ιαν 28 02:07:59 *	Current local users: 33 Max: 166
+Ιαν 28 02:07:59 *	Current global users: 316 Max: 639
+Ιαν 28 02:07:59 *	*** Notice -- motd was last changed at 6/6/2016 15:25
+Ιαν 28 02:07:59 *	*** Notice -- Please read the motd if you haven't read it
+Ιαν 28 02:07:59 *	- aetos.irc.gr Message of the Day - 
+Ιαν 28 02:07:59 *	- 
+Ιαν 28 02:07:59 *	- 
+Ιαν 28 02:07:59 *	-                _        _____       _____       _____        _____ _____  
+Ιαν 28 02:07:59 *	-      /\       | |      / ____|     |_   _|     / ____|      / ____|  __ \ 
+Ιαν 28 02:07:59 *	-     /  \   ___| |_ ___| (___         | |  _ __| |          | |  __| |__) |
+Ιαν 28 02:07:59 *	-    / /\ \ / _ \ __/ _ \\___ \        | | | '__| |          | | |_ |  _  / 
+Ιαν 28 02:07:59 *	-   / ____ \  __/ || (_) |___) |  _   _| |_| |  | |____   _  | |__| | | \ \ 
+Ιαν 28 02:07:59 *	-  /_/    \_\___|\__\___/_____/  (_) |_____|_|   \_____| (_)  \_____|_|  \_                
+Ιαν 28 02:07:59 *	-                                                           
+Ιαν 28 02:07:59 *	-                                                                           
+Ιαν 28 02:07:59 *	- 
+Ιαν 28 02:07:59 *	- **********************************************************************************
+Ιαν 28 02:07:59 *	- ******************** Users have ZERO RIGHTS on this server. **********************
+Ιαν 28 02:07:59 *	- **************** ACCESS TO THIS SERVER IS A PRIVILEGE,NOT A RIGHT! ***************
+Ιαν 28 02:07:59 *	- ********************************************************************************** 
+Ιαν 28 02:07:59 *	-                         
+Ιαν 28 02:07:59 *	-                          Admin: Boldtrick
+Ιαν 28 02:07:59 *	-                                                                       
+Ιαν 28 02:07:59 *	-                   This is an UNSUPPORTED SERVICE provided based
+Ιαν 28 02:07:59 *	-                   on the good-will of the server's administrators.
+Ιαν 28 02:07:59 *	-   
+Ιαν 28 02:07:59 *	-                           USE it, DO NOT ABUSE it!
+Ιαν 28 02:07:59 *	-                                                                      		          
+Ιαν 28 02:07:59 *	-                                                                       
+Ιαν 28 02:07:59 *	-                 Ignorance of this message is no excuse for lameness.
+Ιαν 28 02:07:59 *	-                                                                       
+Ιαν 28 02:07:59 *	-                  Information About Gr-Net Is Hosted At: www.irc.gr 
+Ιαν 28 02:07:59 *	- 
+Ιαν 28 02:07:59 *	-            * Ports available on this server are 6667 and SSL enabled port: 7000 *
+Ιαν 28 02:07:59 *	-                          
+Ιαν 28 02:07:59 *	-                                                                       
+Ιαν 28 02:07:59 *	-                                *** DISCLAIMER ***                        
+Ιαν 28 02:07:59 *	-           THE ADMINISTRATOR AND THE OPERATORS OF THIS SERVER BEAR *NO*   
+Ιαν 28 02:07:59 *	-           RESPONSIBILITY FOR THE DATA EXCHANGED WHEN USING THE SERVICE   
+Ιαν 28 02:07:59 *	-    
+Ιαν 28 02:07:59 *	-           THIS INCLUDES MP3, DIVX, (S)VCD, WAREZ, GAMES, DOCUMENTS AND   
+Ιαν 28 02:07:59 *	-           ANY OTHER TYPE OF CONTENT .  WE DO NOT GUARANTEE PRIVACY NOR   
+Ιαν 28 02:07:59 *	-           RECOGNISE ANY KIND OF DISCLOSURE AGREEMENT TOWARDS AGENCIES,   
+Ιαν 28 02:07:59 *	-           ORGANISATIONS OR INDIVIDUALS.                                  
+Ιαν 28 02:07:59 *	-        
+Ιαν 28 02:07:59 *	-  	*** SERVER RULES ***
+Ιαν 28 02:07:59 *	-  
+Ιαν 28 02:07:59 *	-  * NO fileServers allowed
+Ιαν 28 02:07:59 *	-  * NO flooding is allowed on this server
+Ιαν 28 02:07:59 *	-  * NO Massmodes, take-overs, net hack deops and network abuse
+Ιαν 28 02:07:59 *	-  * NO criminal/illegal activities according to the law
+Ιαν 28 02:07:59 *	-  * NO illegal software/movies/mp3/porno sharing/distributing
+Ιαν 28 02:07:59 *	-  * Unauthorized bots/bnc's/eggdrops are not allowed (please see http://auth-db.irc.gr/)
+Ιαν 28 02:07:59 *	-  * User harassment is strictly FORBIDDEN
+Ιαν 28 02:07:59 *	-  * Rules may change without further notice
+Ιαν 28 02:07:59 *	-  * We Reserve the Right to Deny Access for any Reason
+Ιαν 28 02:07:59 *	-  * Access to this GRNET Server is a Privilege not a Right
+Ιαν 28 02:07:59 *	-  * Authorities (police and other government agencies) will be helped to 
+Ιαν 28 02:07:59 *	-    track down a user or any other investigation by the staff of this 
+Ιαν 28 02:07:59 *	-    server without the need procurator's order
+Ιαν 28 02:07:59 *	-  * Access to Underage people (under eighteen (18) years old)
+Ιαν 28 02:07:59 *	-    is permitted only under parental approval
+Ιαν 28 02:07:59 *	-  * Users must agree with all the above rules in order to join this server
+Ιαν 28 02:07:59 *	End of /MOTD command.
+Ιαν 28 02:07:59 *	*** Notice -- This server runs an open proxy monitor to prevent abuse.
+Ιαν 28 02:07:59 *	*** Notice -- If you see connections on various ports from aetos.irc.gr
+Ιαν 28 02:07:59 *	*** Notice -- please disregard them, as they are the monitor in action.
+Ιαν 28 02:07:59 *	*** Notice -- For more information please visit www.irc.gr/help/socks.shtml
+Ιαν 28 02:07:59 *	shrug sets mode +i on shrug
+Ιαν 28 02:07:59 -GRnet-	[Logon News - Aug 06 2013] PROSOXI: Exoun parousiastei krousmata klophs nick kai kanaliwn. An bainete se alla irc-dyktia, ektos tou GrNet, gia diki sas asfaleia sas synistoume na apofeygete na xrisimopoieite tous idious kwdikous gia ta nick sas kai ta kanalia sas. #1
+Ιαν 28 02:07:59 -GRnet-	[Logon News - May 16 2005] Gia na eiste sigouroi oti 8a mporesete na anakthsete ton kwdiko tou nick sas se periptwsh pou ton xasete, parakaloume na pros8esete APO TWRA to e-mail sas sta stoixeia tou nick sas. Plhktrologhste /NS HELP SET EMAIL gia perissotera 'h enhmerw8eite sto kanali #help.
+Ιαν 28 02:07:59 -GRnet-	[Logon News - Sep 02 2003] PROSOXH: Den mpainoume pote se istoselides pou mas lene agnwstoi (synh8ws me prive mhnymata) giati kata 90% periexoun ious.  Gia na apallageite apo ious dokimaste to www.trojanfix.in.irc.gr Gia perissotera symbouleuteite tous chanopers sta kanalia #help kai #hellas-opers.
+Ιαν 28 02:08:34 *	Closing Link: 46.12.85.45.dsl.dyn.forthnet.gr (Quit: Leaving)
+Ιαν 28 02:08:34 *	Disconnected (Remote host closed socket)
+Ιαν 28 02:08:44 *	Looking up global.irc.gr
+Ιαν 28 02:08:44 *	Connecting to fallback.irc.gr (185.62.188.82:6667)
+Ιαν 28 02:08:44 *	Connected. Now logging in.
+Ιαν 28 02:08:44 *	*** Looking up your hostname...
+Ιαν 28 02:08:44 *	*** Found your hostname
+**** ENDING LOGGING AT Sun Jan 28 02:08:44 2018
+

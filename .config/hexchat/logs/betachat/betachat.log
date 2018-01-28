@@ -1,0 +1,47 @@
+**** BEGIN LOGGING AT Sun Jan 28 02:07:26 2018
+
+Ιαν 28 02:07:26 *	*** Checking Ident
+Ιαν 28 02:07:26 *	*** Looking up your hostname...
+Ιαν 28 02:07:26 *	*** Found your hostname: 46.12.85.45.dsl.dyn.forthnet.gr
+Ιαν 28 02:07:26 *	*** Scanning for open proxies...
+Ιαν 28 02:07:26 *	*** Checking your IP against DNS blacklists
+Ιαν 28 02:07:26 *	*** IP not found in DNS blacklists
+Ιαν 28 02:07:33 *	*** Did not detect open proxies
+Ιαν 28 02:07:33 *	*** No Ident response
+Ιαν 28 02:07:33 *	Capabilities supported: account-notify account-tag away-notify cap-notify chghost echo-message extended-join invite-notify multi-prefix sasl=PLAIN,AUTHCOOKIE,EXTERNAL,ECDSA-NIST256P-CHALLENGE server-time tls userhost-in-names 
+Ιαν 28 02:07:33 *	Capabilities requested: account-notify away-notify cap-notify chghost extended-join multi-prefix server-time userhost-in-names 
+Ιαν 28 02:07:33 *	Capabilities acknowledged: account-notify away-notify cap-notify chghost extended-join multi-prefix server-time userhost-in-names
+**** ENDING LOGGING AT Sun Jan 28 02:07:33 2018
+
+**** BEGIN LOGGING AT Sun Jan 28 02:07:33 2018
+
+Ιαν 28 02:07:33 *	Welcome to the BetaChat Internet Relay Chat Network shrug
+Ιαν 28 02:07:33 *	Your host is neptune.betachat.net[neptune.betachat.net/6667], running version charybdis-4-rc3
+Ιαν 28 02:07:33 *	This server was created Sat Oct 29 2016 at 20:59:00 EDT
+Ιαν 28 02:07:33 *	neptune.betachat.net charybdis-4-rc3 DQRSZagiloswxz CFILOPQRSTbcefgijklmnopqrstvz bkloveqjfI
+Ιαν 28 02:07:33 *	MONITOR=100 SAFELIST ELIST=CTU WHOX ETRACE KNOCK FNC CHANTYPES=#& EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLPQTcgimnprstz CHANLIMIT=#&:15 :are supported by this server
+Ιαν 28 02:07:33 *	PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=BetaChat STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 NICKLEN=30 MAXNICKLEN=31 CHANNELLEN=50 TOPICLEN=390 DEAF=D :are supported by this server
+Ιαν 28 02:07:33 *	TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,&acjmorsuxz| CLIENTVER=3.0 :are supported by this server
+Ιαν 28 02:07:33 *	There are 0 users and 41 invisible on 2 servers
+Ιαν 28 02:07:33 *	6 :IRC Operators online
+Ιαν 28 02:07:33 *	25 :channels formed
+Ιαν 28 02:07:33 *	I have 29 clients and 1 servers
+Ιαν 28 02:07:33 *	29 41 :Current local users 29, max 41
+Ιαν 28 02:07:33 *	41 53 :Current global users 41, max 53
+Ιαν 28 02:07:33 *	Highest connection count: 42 (41 clients) (3616 connections received)
+Ιαν 28 02:07:33 *	- neptune.betachat.net Message of the Day - 
+Ιαν 28 02:07:33 *	- This is charybdis MOTD you might replace it, but if not your friends will
+Ιαν 28 02:07:33 *	- laugh at you.
+Ιαν 28 02:07:33 *	-  
+Ιαν 28 02:07:33 *	- HAHAHAHAHAHAHAHAHAHAHAHAHAHH
+Ιαν 28 02:07:33 *	-  
+Ιαν 28 02:07:33 *	- FUCK YOU!!!
+Ιαν 28 02:07:33 *	End of /MOTD command.
+Ιαν 28 02:07:33 *	shrug sets mode +i on shrug
+Ιαν 28 02:07:33 *	shrug sets mode +x on shrug
+Ιαν 28 02:07:33 *	50.33.32.80.dsl.dyn.forthnet.gr :is now your hidden host
+Ιαν 28 02:07:33 -NickServ-	Welcome to BetaChat, shrug! Here on BetaChat, we provide services to enable the registration of nicknames and channels! For details, type /msg NickServ help and /msg ChanServ help.
+Ιαν 28 02:07:58 *	Disconnected ()
+Ιαν 28 02:07:58 *	Looking up global.irc.gr
+Ιαν 28 02:07:58 *	Connecting to fallback.irc.gr (5.206.225.20:6667)
+Ιαν 28 02:07:58 *	Connected. Now logging in.

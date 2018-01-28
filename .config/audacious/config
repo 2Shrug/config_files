@@ -1,0 +1,13 @@
+
+[audacious]
+record=FALSE
+
+[gtkui]
+column_widths=10,275,175,10,175,175,10,100,39,10,275,275,275,10,275
+player_height=354
+player_width=1362
+player_x=0
+player_y=393
+
+[gtkui-layout]
+item_count=0

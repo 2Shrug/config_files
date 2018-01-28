@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=necrobancer@hotmail.com
+Enabled=true
+Parent=1f8573797e08cde42959ba876962e5844a10c234
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp-mail.outlook.com
+Method=LOGIN
+Port=587
+ProxyUid=system-proxy
+RememberPassword=true
+User=necrobancer@hotmail.com
+CredentialName=
+
+[Security]
+Method=starttls-on-standard-port

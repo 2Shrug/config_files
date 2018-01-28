@@ -1,0 +1,28 @@
+[Data Source]
+DisplayName=George.Vlachakis1@gmail.com
+Enabled=true
+Parent=5b597e91ab1271c5c77ff5a31c31c304d8396eae
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://5b597e91ab1271c5c77ff5a31c31c304d8396eae/%5bGmail%5d/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=George.Vlachakis1@gmail.com
+Aliases=
+Name=George Vlachakis
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=bf4084c4a67c1c4865f10cffd2d7bc4bc9908c2f
+RepliesToOriginFolder=false
+UseSentFolder=true

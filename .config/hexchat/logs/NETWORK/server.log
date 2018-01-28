@@ -1,0 +1,40 @@
+**** BEGIN LOGGING AT Sun Jan 28 02:01:19 2018
+
+Ιαν 28 02:01:19 Sysinfo plugin loaded
+Ιαν 28 02:01:19 FiSHLiM plugin loaded
+Ιαν 28 02:01:19 Checksum plugin loaded
+Ιαν 28 02:01:20 Python interface loaded
+Ιαν 28 02:01:20 Lua version 1.3/5.3 loaded.
+Ιαν 28 02:01:20 Perl interface loaded
+**** BEGIN LOGGING AT Sun Jan 28 02:05:52 2018
+
+Ιαν 28 02:05:52 Sysinfo plugin loaded
+Ιαν 28 02:05:52 FiSHLiM plugin loaded
+Ιαν 28 02:05:52 Checksum plugin loaded
+Ιαν 28 02:05:52 Python interface loaded
+Ιαν 28 02:05:52 Lua version 1.3/5.3 loaded.
+Ιαν 28 02:05:52 Perl interface loaded
+Ιαν 28 02:05:52 *	Looking up newserver
+**** BEGIN LOGGING AT Sun Jan 28 02:06:06 2018
+
+Ιαν 28 02:06:06 Sysinfo plugin loaded
+Ιαν 28 02:06:06 FiSHLiM plugin loaded
+Ιαν 28 02:06:06 Checksum plugin loaded
+Ιαν 28 02:06:06 Python interface loaded
+Ιαν 28 02:06:06 Lua version 1.3/5.3 loaded.
+Ιαν 28 02:06:06 Perl interface loaded
+**** BEGIN LOGGING AT Sun Jan 28 02:09:39 2018
+
+Ιαν 28 02:09:39 Sysinfo plugin loaded
+Ιαν 28 02:09:39 FiSHLiM plugin loaded
+Ιαν 28 02:09:39 Checksum plugin loaded
+Ιαν 28 02:09:39 Python interface loaded
+Ιαν 28 02:09:39 Lua version 1.3/5.3 loaded.
+Ιαν 28 02:09:39 Perl interface loaded
+Ιαν 28 02:10:04 Perl interface unloaded
+Ιαν 28 02:10:04 Python interface unloaded
+Ιαν 28 02:10:04 Checksum plugin unloaded
+Ιαν 28 02:10:04 FiSHLiM plugin unloaded
+Ιαν 28 02:10:04 Sysinfo plugin unloaded
+**** ENDING LOGGING AT Sun Jan 28 02:10:04 2018
+

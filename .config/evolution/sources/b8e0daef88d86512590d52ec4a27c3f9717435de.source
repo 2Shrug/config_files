@@ -1,0 +1,28 @@
+[Data Source]
+DisplayName=George.Vlachakis@outlook.com
+Enabled=true
+Parent=b8573d9437cb5c89e0cd61582d6d67afb62e414d
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://b8573d9437cb5c89e0cd61582d6d67afb62e414d/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=George.Vlachakis@outlook.com
+Aliases=
+Name=George
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://b8573d9437cb5c89e0cd61582d6d67afb62e414d/Sent
+TransportUid=5201f18b09357a9f5b895d963df174aa8b842e41
+RepliesToOriginFolder=false
+UseSentFolder=true

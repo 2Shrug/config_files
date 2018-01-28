@@ -1,0 +1,57 @@
+[Data Source]
+DisplayName=necrobancer@hotmail.com
+Enabled=true
+Parent=
+
+[Offline]
+StaySynchronized=false
+
+[Refresh]
+Enabled=true
+IntervalMinutes=60
+
+[Authentication]
+Host=imap-mail.outlook.com
+Method=none
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=necrobancer@hotmail.com
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=30a04ef8d05312f8b026a98f5ea43e1a1d16900e
+ArchiveFolder=folder://1f8573797e08cde42959ba876962e5844a10c234/Archive
+NeedsInitialSetup=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+LimitByAge=false
+LimitUnit=years
+LimitValue=1
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=Junk
+RealTrashPath=Deleted
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=false
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=true
+UseRealTrashPath=true
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

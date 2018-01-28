@@ -1,0 +1,494 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3143,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"w",
+						"workspace8"
+					],
+					[
+						"work",
+						"workspace1"
+					],
+					[
+						"c",
+						"class"
+					],
+					[
+						"as",
+						"assign"
+					],
+					[
+						"works",
+						"workspace"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/shrug/.config/i3/config",
+					"settings":
+					{
+						"buffer_size": 7223,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/shrug/.config/neofetch/config.conf",
+					"settings":
+					{
+						"buffer_size": 14496,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/shrug/.zshrc",
+					"settings":
+					{
+						"buffer_size": 3131,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/shrug/.Xdefaults",
+					"settings":
+					{
+						"buffer_size": 772,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/shrug/.config/gtk-3.0/settings.ini",
+					"settings":
+					{
+						"buffer_size": 385,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/shrug/.gtkrc-2.0",
+					"settings":
+					{
+						"buffer_size": 548,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "# ===================================================================\n# This file contains the default startup commands for ranger.\n# To change them, it is recommended to create the file\n# ~/.config/ranger/rc.conf and add your custom commands there.\n#\n# If you copy this whole file there, you may want to set the environment\n# variable RANGER_LOAD_DEFAULT_RC to FALSE to avoid loading it twice.\n#\n# The purpose of this file is mainly to define keybindings and settings.\n# For running more complex python code, please create a plugin in \"plugins/\" or\n# a command in \"commands.py\".\n#\n# Each line is a command that will be run before the user interface\n# is initialized.  As a result, you can not use commands which rely\n# on the UI such as :delete or :mark.\n# ===================================================================\n\n# ===================================================================\n# == Options\n# ===================================================================\n\n# Which viewmode should be used?  Possible values are:\n#     miller: Use miller columns which show multiple levels of the hierarchy\n#     multipane: Midnight-commander like multipane view showing all tabs next\n#                to each other\nset viewmode miller\n#set viewmode multipane\n\n# How many columns are there, and what are their relative widths?\nset column_ratios 1,3,4\n\n# Which files should be hidden? (regular expression)\nset hidden_filter ^\\.|\\.(?:pyc|pyo|bak|swp)$|^lost\\+found$|^__(py)?cache__$\n\n# Show hidden files? You can toggle this by typing 'zh'\nset show_hidden false\n\n# Ask for a confirmation when running the \"delete\" command?\n# Valid values are \"always\", \"never\", \"multiple\" (default)\n# With \"multiple\", ranger will ask only if you delete multiple files at once.\nset confirm_on_delete multiple\n\n# Which script is used to generate file previews?\n# ranger ships with scope.sh, a script that calls external programs (see\n# README.md for dependencies) to preview images, archives, etc.\nset preview_script ~/.config/ranger/scope.sh\n\n# Use the external preview script or display simple plain text or image previews?\nset use_preview_script true\n\n# Automatically count files in the directory, even before entering them?\nset automatically_count_files true\n\n# Open all images in this directory when running certain image viewers\n# like feh or sxiv?  You can still open selected files by marking them.\nset open_all_images true\n\n# Be aware of version control systems and display information.\nset vcs_aware false\n\n# State of the three backends git, hg, bzr. The possible states are\n# disabled, local (only show local info), enabled (show local and remote\n# information).\nset vcs_backend_git enabled\nset vcs_backend_hg disabled\nset vcs_backend_bzr disabled\n\n# Use one of the supported image preview protocols\nset preview_images true\n\n# Set the preview image method. Supported methods:\n#\n# * w3m (default):\n#   Preview images in full color with the external command \"w3mimgpreview\"?\n#   This requires the console web browser \"w3m\" and a supported terminal.\n#   It has been successfully tested with \"xterm\" and \"urxvt\" without tmux.\n#\n# * iterm2:\n#   Preview images in full color using iTerm2 image previews\n#   (http://iterm2.com/images.html). This requires using iTerm2 compiled\n#   with image preview support.\n#\n# * urxvt:\n#   Preview images in full color using urxvt image backgrounds. This\n#   requires using urxvt compiled with pixbuf support.\n#\n# * urxvt-full:\n#   The same as urxvt but utilizing not only the preview pane but the\n#   whole terminal window.\nset preview_images_method w3m\n\n# Use a unicode \"...\" character to mark cut-off filenames?\nset unicode_ellipsis false\n\n# Show dotfiles in the bookmark preview box?\nset show_hidden_bookmarks true\n\n# Which colorscheme to use?  These colorschemes are available by default:\n# default, jungle, snow, solarized\nset colorscheme default\n\n# Preview files on the rightmost column?\n# And collapse (shrink) the last column if there is nothing to preview?\nset preview_files true\nset preview_directories true\nset collapse_preview true\n\n# Save the console history on exit?\nset save_console_history true\n\n# Draw the status bar on top of the browser window (default: bottom)\nset status_bar_on_top false\n\n# Draw a progress bar in the status bar which displays the average state of all\n# currently running tasks which support progress bars?\nset draw_progress_bar_in_status_bar true\n\n# Draw borders around columns?\nset draw_borders false\n\n# Display the directory name in tabs?\nset dirname_in_tabs false\n\n# Enable the mouse support?\nset mouse_enabled true\n\n# Display the file size in the main column or status bar?\nset display_size_in_main_column true\nset display_size_in_status_bar true\n\n# Display files tags in all columns or only in main column?\nset display_tags_in_all_columns true\n\n# Set a title for the window?\nset update_title false\n\n# Set the title to \"ranger\" in the tmux program?\nset update_tmux_title false\n\n# Shorten the title if it gets long?  The number defines how many\n# directories are displayed at once, 0 turns off this feature.\nset shorten_title 3\n\n# Abbreviate $HOME with ~ in the titlebar (first line) of ranger?\nset tilde_in_titlebar false\n\n# How many directory-changes or console-commands should be kept in history?\nset max_history_size 20\nset max_console_history_size 50\n\n# Try to keep so much space between the top/bottom border when scrolling:\nset scroll_offset 8\n\n# Flush the input after each key hit?  (Noticeable when ranger lags)\nset flushinput true\n\n# Padding on the right when there's no preview?\n# This allows you to click into the space to run the file.\nset padding_right true\n\n# Save bookmarks (used with mX and `X) instantly?\n# This helps to synchronize bookmarks between multiple ranger\n# instances but leads to *slight* performance loss.\n# When false, bookmarks are saved when ranger is exited.\nset autosave_bookmarks true\n\n# You can display the \"real\" cumulative size of directories by using the\n# command :get_cumulative_size or typing \"dc\".  The size is expensive to\n# calculate and will not be updated automatically.  You can choose\n# to update it automatically though by turning on this option:\nset autoupdate_cumulative_size false\n\n# Turning this on makes sense for screen readers:\nset show_cursor false\n\n# One of: size, natural, basename, atime, ctime, mtime, type, random\nset sort natural\n\n# Additional sorting options\nset sort_reverse false\nset sort_case_insensitive true\nset sort_directories_first true\nset sort_unicode false\n\n# Enable this if key combinations with the Alt Key don't work for you.\n# (Especially on xterm)\nset xterm_alt_key false\n\n# Whether to include bookmarks in cd command\nset cd_bookmarks true\n\n# Avoid previewing files larger than this size, in bytes.  Use a value of 0 to\n# disable this feature.\nset preview_max_size 0\n\n# Add the highlighted file to the path in the titlebar\nset show_selection_in_titlebar true\n\n# The delay that ranger idly waits for user input, in milliseconds, with a\n# resolution of 100ms.  Lower delay reduces lag between directory updates but\n# increases CPU load.\nset idle_delay 2000\n\n# When the metadata manager module looks for metadata, should it only look for\n# a \".metadata.json\" file in the current directory, or do a deep search and\n# check all directories above the current one as well?\nset metadata_deep_search false\n\n# Clear all existing filters when leaving a directory\nset clear_filters_on_dir_change false\n\n# Disable displaying line numbers in main column\nset line_numbers false\n\n# ===================================================================\n# == Local Options\n# ===================================================================\n# You can set local options that only affect a single directory.\n\n# Examples:\n# setlocal path=~/downloads sort mtime\n\n# ===================================================================\n# == Command Aliases in the Console\n# ===================================================================\n\nalias e    edit\nalias q    quit\nalias q!   quitall\nalias qa   quitall\nalias qall quitall\nalias setl setlocal\n\nalias filter     scout -prt\nalias find       scout -aeit\nalias mark       scout -mr\nalias unmark     scout -Mr\nalias search     scout -rs\nalias search_inc scout -rts\nalias travel     scout -aefiklst\n\n# ===================================================================\n# == Define keys for the browser\n# ===================================================================\n\n# Basic\nmap     Q quit!\nmap     q quit\ncopymap q ZZ ZQ\n\nmap R     reload_cwd\nmap <C-r> reset\nmap <C-l> redraw_window\nmap <C-c> abort\nmap <esc> change_mode normal\nmap ~ set viewmode!\n\nmap i display_file\nmap ? help\nmap W display_log\nmap w taskview_open\nmap S shell $SHELL\n\nmap :  console\nmap ;  console\nmap !  console shell%space\nmap @  console -p6 shell  %%s\nmap #  console shell -p%space\nmap s  console shell%space\nmap r  chain draw_possible_programs; console open_with%%space\nmap f  console find%space\nmap cd console cd%space\n\n# Change the line mode\nmap Mf linemode filename\nmap Mi linemode fileinfo\nmap Mm linemode mtime\nmap Mp linemode permissions\nmap Ms linemode sizemtime\nmap Mt linemode metatitle\n\n# Tagging / Marking\nmap t       tag_toggle\nmap ut      tag_remove\nmap \"<any>  tag_toggle tag=%any\nmap <Space> mark_files toggle=True\nmap v       mark_files all=True toggle=True\nmap uv      mark_files all=True val=False\nmap V       toggle_visual_mode\nmap uV      toggle_visual_mode reverse=True\n\n# For the nostalgics: Midnight Commander bindings\nmap <F1> help\nmap <F3> display_file\nmap <F4> edit\nmap <F5> copy\nmap <F6> cut\nmap <F7> console mkdir%space\nmap <F8> console delete\nmap <F10> exit\n\n# In case you work on a keyboard with dvorak layout\nmap <UP>       move up=1\nmap <DOWN>     move down=1\nmap <LEFT>     move left=1\nmap <RIGHT>    move right=1\nmap <HOME>     move to=0\nmap <END>      move to=-1\nmap <PAGEDOWN> move down=1   pages=True\nmap <PAGEUP>   move up=1     pages=True\nmap <CR>       move right=1\n#map <DELETE>   console delete\nmap <INSERT>   console touch%space\n\n# VIM-like\ncopymap <UP>       k\ncopymap <DOWN>     j\ncopymap <LEFT>     h\ncopymap <RIGHT>    l\ncopymap <HOME>     gg\ncopymap <END>      G\ncopymap <PAGEDOWN> <C-F>\ncopymap <PAGEUP>   <C-B>\n\nmap J  move down=0.5  pages=True\nmap K  move up=0.5    pages=True\ncopymap J <C-D>\ncopymap K <C-U>\n\n# Jumping around\nmap H     history_go -1\nmap L     history_go 1\nmap ]     move_parent 1\nmap [     move_parent -1\nmap }     traverse\n\nmap gh cd ~\nmap ge cd /etc\nmap gu cd /usr\nmap gd cd /dev\nmap gl cd -r .\nmap gL cd -r %f\nmap go cd /opt\nmap gv cd /var\nmap gm cd /media\nmap gM cd /mnt\nmap gs cd /srv\nmap gr cd /\nmap gR eval fm.cd(ranger.RANGERDIR)\nmap g/ cd /\nmap g? cd /usr/share/doc/ranger\n\n# External Programs\nmap E  edit\nmap du shell -p du --max-depth=1 -h --apparent-size\nmap dU shell -p du --max-depth=1 -h --apparent-size | sort -rh\nmap yp shell -f echo -n %d/%f | xsel -i; xsel -o | xsel -i -b\nmap yd shell -f echo -n %d    | xsel -i; xsel -o | xsel -i -b\nmap yn shell -f echo -n %f    | xsel -i; xsel -o | xsel -i -b\n\n# Filesystem Operations\nmap =  chmod\n\nmap cw console rename%space\nmap a  rename_append\nmap A  eval fm.open_console('rename ' + fm.thisfile.relative_path.replace(\"%\", \"%%\"))\nmap I  eval fm.open_console('rename ' + fm.thisfile.relative_path.replace(\"%\", \"%%\"), position=7)\n\nmap pp paste\nmap po paste overwrite=True\nmap pP paste append=True\nmap pO paste overwrite=True append=True\nmap pl paste_symlink relative=False\nmap pL paste_symlink relative=True\nmap phl paste_hardlink\nmap pht paste_hardlinked_subtree\n\nmap dD console delete\n\nmap dd cut\nmap ud uncut\nmap da cut mode=add\nmap dr cut mode=remove\nmap dt cut mode=toggle\n\nmap yy copy\nmap uy uncut\nmap ya copy mode=add\nmap yr copy mode=remove\nmap yt copy mode=toggle\n\n# Temporary workarounds\nmap dgg eval fm.cut(dirarg=dict(to=0), narg=quantifier)\nmap dG  eval fm.cut(dirarg=dict(to=-1), narg=quantifier)\nmap dj  eval fm.cut(dirarg=dict(down=1), narg=quantifier)\nmap dk  eval fm.cut(dirarg=dict(up=1), narg=quantifier)\nmap ygg eval fm.copy(dirarg=dict(to=0), narg=quantifier)\nmap yG  eval fm.copy(dirarg=dict(to=-1), narg=quantifier)\nmap yj  eval fm.copy(dirarg=dict(down=1), narg=quantifier)\nmap yk  eval fm.copy(dirarg=dict(up=1), narg=quantifier)\n\n# Searching\nmap /  console search%space\nmap n  search_next\nmap N  search_next forward=False\nmap ct search_next order=tag\nmap cs search_next order=size\nmap ci search_next order=mimetype\nmap cc search_next order=ctime\nmap cm search_next order=mtime\nmap ca search_next order=atime\n\n# Tabs\nmap <C-n>     tab_new ~\nmap <C-w>     tab_close\nmap <TAB>     tab_move 1\nmap <S-TAB>   tab_move -1\nmap <A-Right> tab_move 1\nmap <A-Left>  tab_move -1\nmap gt        tab_move 1\nmap gT        tab_move -1\nmap gn        tab_new ~\nmap gc        tab_close\nmap uq        tab_restore\nmap <a-1>     tab_open 1\nmap <a-2>     tab_open 2\nmap <a-3>     tab_open 3\nmap <a-4>     tab_open 4\nmap <a-5>     tab_open 5\nmap <a-6>     tab_open 6\nmap <a-7>     tab_open 7\nmap <a-8>     tab_open 8\nmap <a-9>     tab_open 9\n\n# Sorting\nmap or set sort_reverse!\nmap oz set sort=random\nmap os chain set sort=size;      set sort_reverse=False\nmap ob chain set sort=basename;  set sort_reverse=False\nmap on chain set sort=natural;   set sort_reverse=False\nmap om chain set sort=mtime;     set sort_reverse=False\nmap oc chain set sort=ctime;     set sort_reverse=False\nmap oa chain set sort=atime;     set sort_reverse=False\nmap ot chain set sort=type;      set sort_reverse=False\nmap oe chain set sort=extension; set sort_reverse=False\n\nmap oS chain set sort=size;      set sort_reverse=True\nmap oB chain set sort=basename;  set sort_reverse=True\nmap oN chain set sort=natural;   set sort_reverse=True\nmap oM chain set sort=mtime;     set sort_reverse=True\nmap oC chain set sort=ctime;     set sort_reverse=True\nmap oA chain set sort=atime;     set sort_reverse=True\nmap oT chain set sort=type;      set sort_reverse=True\nmap oE chain set sort=extension; set sort_reverse=True\n\nmap dc get_cumulative_size\n\n# Settings\nmap zc    set collapse_preview!\nmap zd    set sort_directories_first!\nmap zh    set show_hidden!\nmap <C-h> set show_hidden!\nmap zI    set flushinput!\nmap zi    set preview_images!\nmap zm    set mouse_enabled!\nmap zp    set preview_files!\nmap zP    set preview_directories!\nmap zs    set sort_case_insensitive!\nmap zu    set autoupdate_cumulative_size!\nmap zv    set use_preview_script!\nmap zf    console filter%space\n\n# Bookmarks\nmap `<any>  enter_bookmark %any\nmap '<any>  enter_bookmark %any\nmap m<any>  set_bookmark %any\nmap um<any> unset_bookmark %any\n\nmap m<bg>   draw_bookmarks\ncopymap m<bg>  um<bg> `<bg> '<bg>\n\n# Generate all the chmod bindings with some python help:\neval for arg in \"rwxXst\": cmd(\"map +u{0} shell -f chmod u+{0} %s\".format(arg))\neval for arg in \"rwxXst\": cmd(\"map +g{0} shell -f chmod g+{0} %s\".format(arg))\neval for arg in \"rwxXst\": cmd(\"map +o{0} shell -f chmod o+{0} %s\".format(arg))\neval for arg in \"rwxXst\": cmd(\"map +a{0} shell -f chmod a+{0} %s\".format(arg))\neval for arg in \"rwxXst\": cmd(\"map +{0}  shell -f chmod u+{0} %s\".format(arg))\n\neval for arg in \"rwxXst\": cmd(\"map -u{0} shell -f chmod u-{0} %s\".format(arg))\neval for arg in \"rwxXst\": cmd(\"map -g{0} shell -f chmod g-{0} %s\".format(arg))\neval for arg in \"rwxXst\": cmd(\"map -o{0} shell -f chmod o-{0} %s\".format(arg))\neval for arg in \"rwxXst\": cmd(\"map -a{0} shell -f chmod a-{0} %s\".format(arg))\neval for arg in \"rwxXst\": cmd(\"map -{0}  shell -f chmod u-{0} %s\".format(arg))\n\n# ===================================================================\n# == Define keys for the console\n# ===================================================================\n# Note: Unmapped keys are passed directly to the console.\n\n# Basic\ncmap <tab>   eval fm.ui.console.tab()\ncmap <s-tab> eval fm.ui.console.tab(-1)\ncmap <ESC>   eval fm.ui.console.close()\ncmap <CR>    eval fm.ui.console.execute()\ncmap <C-l>   redraw_window\n\ncopycmap <ESC> <C-c>\ncopycmap <CR>  <C-j>\n\n# Move around\ncmap <up>    eval fm.ui.console.history_move(-1)\ncmap <down>  eval fm.ui.console.history_move(1)\ncmap <left>  eval fm.ui.console.move(left=1)\ncmap <right> eval fm.ui.console.move(right=1)\ncmap <home>  eval fm.ui.console.move(right=0, absolute=True)\ncmap <end>   eval fm.ui.console.move(right=-1, absolute=True)\ncmap <a-left>   eval fm.ui.console.move_word(left=1)\ncmap <a-right>  eval fm.ui.console.move_word(right=1)\n\n# Line Editing\ncmap <backspace>  eval fm.ui.console.delete(-1)\ncmap <delete>     eval fm.ui.console.delete(0)\ncmap <C-w>        eval fm.ui.console.delete_word()\ncmap <A-d>        eval fm.ui.console.delete_word(backward=False)\ncmap <C-k>        eval fm.ui.console.delete_rest(1)\ncmap <C-u>        eval fm.ui.console.delete_rest(-1)\ncmap <C-y>        eval fm.ui.console.paste()\n\n# And of course the emacs way\ncopycmap <up>        <C-p>\ncopycmap <down>      <C-n>\ncopycmap <left>      <C-b>\ncopycmap <right>     <C-f>\ncopycmap <home>      <C-a>\ncopycmap <end>       <C-e>\ncopycmap <delete>    <C-d>\ncopycmap <backspace> <C-h>\n\n# Note: There are multiple ways to express backspaces.  <backspace> (code 263)\n# and <backspace2> (code 127).  To be sure, use both.\ncopycmap <backspace> <backspace2>\n\n# This special expression allows typing in numerals:\ncmap <allow_quantifiers> false\n\n# ===================================================================\n# == Pager Keybindings\n# ===================================================================\n\n# Movement\npmap  <down>      pager_move  down=1\npmap  <up>        pager_move  up=1\npmap  <left>      pager_move  left=4\npmap  <right>     pager_move  right=4\npmap  <home>      pager_move  to=0\npmap  <end>       pager_move  to=-1\npmap  <pagedown>  pager_move  down=1.0  pages=True\npmap  <pageup>    pager_move  up=1.0    pages=True\npmap  <C-d>       pager_move  down=0.5  pages=True\npmap  <C-u>       pager_move  up=0.5    pages=True\n\ncopypmap <UP>       k  <C-p>\ncopypmap <DOWN>     j  <C-n> <CR>\ncopypmap <LEFT>     h\ncopypmap <RIGHT>    l\ncopypmap <HOME>     g\ncopypmap <END>      G\ncopypmap <C-d>      d\ncopypmap <C-u>      u\ncopypmap <PAGEDOWN> n  f  <C-F>  <Space>\ncopypmap <PAGEUP>   p  b  <C-B>\n\n# Basic\npmap     <C-l> redraw_window\npmap     <ESC> pager_close\ncopypmap <ESC> q Q i <F3>\npmap E      edit_file\n\n# ===================================================================\n# == Taskview Keybindings\n# ===================================================================\n\n# Movement\ntmap <up>        taskview_move up=1\ntmap <down>      taskview_move down=1\ntmap <home>      taskview_move to=0\ntmap <end>       taskview_move to=-1\ntmap <pagedown>  taskview_move down=1.0  pages=True\ntmap <pageup>    taskview_move up=1.0    pages=True\ntmap <C-d>       taskview_move down=0.5  pages=True\ntmap <C-u>       taskview_move up=0.5    pages=True\n\ncopytmap <UP>       k  <C-p>\ncopytmap <DOWN>     j  <C-n> <CR>\ncopytmap <HOME>     g\ncopytmap <END>      G\ncopytmap <C-u>      u\ncopytmap <PAGEDOWN> n  f  <C-F>  <Space>\ncopytmap <PAGEUP>   p  b  <C-B>\n\n# Changing priority and deleting tasks\ntmap J          eval -q fm.ui.taskview.task_move(-1)\ntmap K          eval -q fm.ui.taskview.task_move(0)\ntmap dd         eval -q fm.ui.taskview.task_remove()\ntmap <pagedown> eval -q fm.ui.taskview.task_move(-1)\ntmap <pageup>   eval -q fm.ui.taskview.task_move(0)\ntmap <delete>   eval -q fm.ui.taskview.task_remove()\n\n# Basic\ntmap <C-l> redraw_window\ntmap <ESC> taskview_close\ncopytmap <ESC> q Q w <C-c>\n",
+					"file": "/home/shrug/.config/ranger/rc.conf",
+					"file_size": 19426,
+					"file_write_time": 131615840377813616,
+					"settings":
+					{
+						"buffer_size": 19426,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/shrug/.gtkrc-2.0",
+				"/home/shrug/.Xdefaults",
+				"/home/shrug/.zshrc",
+				"/home/shrug/.i3/config",
+				"/home/shrug/.config/neofetch/config.conf",
+				"/home/shrug/.Xdefualts"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"*",
+					"font",
+					"theme",
+					"\\u",
+					"copy",
+					"workspace",
+					"work",
+					"map yp shell -d echo -n %d",
+					"map yp shell -d echo -n %d/%f | xsel -i",
+					"preview",
+					"*",
+					"URxvt.letterSpace:",
+					"*"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"URxvt",
+					"URxvt.",
+					"URxvt",
+					"URxvt."
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/shrug/.config/i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7223,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										336,
+										336
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/shrug/.config/neofetch/config.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 14496,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										10163,
+										10163
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 9217.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/shrug/.zshrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3131,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										396,
+										396
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/shrug/.Xdefaults",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 772,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										445,
+										445
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 153.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/shrug/.config/gtk-3.0/settings.ini",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 385,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										111,
+										111
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/shrug/.gtkrc-2.0",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 548,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										271,
+										271
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/shrug/.config/ranger/rc.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 19426,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										12085,
+										12089
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 7066.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,0,18,679,747,1366,768",
+			"project": "",
+			"replace":
+			{
+				"height": 70.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 67.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 353.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

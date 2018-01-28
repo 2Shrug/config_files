@@ -1,0 +1,57 @@
+[Data Source]
+DisplayName=George.Vlachakis@outlook.com
+Enabled=true
+Parent=
+
+[Offline]
+StaySynchronized=false
+
+[Refresh]
+Enabled=true
+IntervalMinutes=60
+
+[Authentication]
+Host=imap-mail.outlook.com
+Method=none
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=George.Vlachakis@outlook.com
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=b8e0daef88d86512590d52ec4a27c3f9717435de
+ArchiveFolder=folder://b8573d9437cb5c89e0cd61582d6d67afb62e414d/Archive
+NeedsInitialSetup=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+LimitByAge=false
+LimitUnit=years
+LimitValue=1
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=Junk
+RealTrashPath=Deleted
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=false
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=true
+UseRealTrashPath=true
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

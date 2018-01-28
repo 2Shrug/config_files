@@ -1,0 +1,19 @@
+2018/01/28-06:24:21.338 14610 Reusing MANIFEST /home/shrug/.config/chromium/Default/Session Storage/MANIFEST-000001
+2018/01/28-06:24:21.339 14610 Recovering log #19
+2018/01/28-06:24:21.339 14610 Reusing old log /home/shrug/.config/chromium/Default/Session Storage/000019.log 
+2018/01/28-14:12:57.197 15604 Compacting 2@0 + 1@1 files
+2018/01/28-14:12:57.342 15604 Generated table #22@0: 623 keys, 18124 bytes
+2018/01/28-14:12:57.342 15604 Compacted 2@0 + 1@1 files => 18124 bytes
+2018/01/28-14:12:57.431 15604 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/01/28-14:12:57.431 15604 Delete type=2 #17
+2018/01/28-14:12:57.433 15604 Delete type=2 #15
+2018/01/28-14:12:57.435 15604 Delete type=2 #20
+2018/01/28-14:14:31.271 15604 Level-0 table #24: started
+2018/01/28-14:14:31.350 15604 Level-0 table #24: 17467 bytes OK
+2018/01/28-14:14:31.472 15604 Delete type=0 #19
+2018/01/28-15:57:48.023 15604 Compacting 1@0 + 1@1 files
+2018/01/28-15:57:48.184 15604 Generated table #25@0: 764 keys, 22457 bytes
+2018/01/28-15:57:48.184 15604 Compacted 1@0 + 1@1 files => 22457 bytes
+2018/01/28-15:57:48.309 15604 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/01/28-15:57:48.309 15604 Delete type=2 #24
+2018/01/28-15:57:48.310 15604 Delete type=2 #22

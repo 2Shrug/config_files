@@ -1,0 +1,15 @@
+**** BEGIN LOGGING AT Sun Jan 28 02:03:24 2018
+
+Ιαν 28 02:03:24 *	Looking up newserver
+**** BEGIN LOGGING AT Sun Jan 28 02:03:34 2018
+
+Ιαν 28 02:03:34 *	Looking up newserver
+Ιαν 28 02:03:34 *	Unknown host. Maybe you misspelled it?
+Ιαν 28 02:03:38 Perl	hexchat_print called without a valid context.
+Ιαν 28 02:03:38 Python interface unloaded
+Ιαν 28 02:03:38 Checksum	hexchat_print called without a valid context.
+Ιαν 28 02:03:38 FiSHLiM	hexchat_print called without a valid context.
+Ιαν 28 02:03:38 Sysinfo	hexchat_command called without a valid context.
+Ιαν 28 02:03:38 Sysinfo	hexchat_print called without a valid context.
+**** ENDING LOGGING AT Sun Jan 28 02:03:38 2018
+

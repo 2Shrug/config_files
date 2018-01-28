@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=George.Vlachakis1@gmail.com
+Enabled=true
+Parent=5b597e91ab1271c5c77ff5a31c31c304d8396eae
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp.googlemail.com
+Method=Google
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=George.Vlachakis1@gmail.com
+CredentialName=
+
+[Security]
+Method=ssl-on-alternate-port

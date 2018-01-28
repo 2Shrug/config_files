@@ -1,0 +1,15 @@
+2018/01/28-06:23:28.511 14617 Reusing MANIFEST /home/shrug/.config/chromium/Default/Local Extension Settings/dhdgffkkebhmkfjojejmpbldmpobfkfo/MANIFEST-000001
+2018/01/28-06:23:28.511 14617 Recovering log #14
+2018/01/28-06:23:28.513 14617 Reusing old log /home/shrug/.config/chromium/Default/Local Extension Settings/dhdgffkkebhmkfjojejmpbldmpobfkfo/000014.log 
+2018/01/28-14:40:14.322 15604 Level-0 table #18: started
+2018/01/28-14:40:14.509 15604 Level-0 table #18: 1020359 bytes OK
+2018/01/28-14:40:14.709 15604 Delete type=0 #14
+2018/01/28-14:40:14.710 15604 Compacting 4@0 + 1@1 files
+2018/01/28-14:40:14.964 15604 Generated table #19@0: 4 keys, 13089 bytes
+2018/01/28-14:40:14.964 15604 Compacted 4@0 + 1@1 files => 13089 bytes
+2018/01/28-14:40:15.086 15604 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/01/28-14:40:15.086 15604 Delete type=2 #18
+2018/01/28-14:40:15.087 15604 Delete type=2 #12
+2018/01/28-14:40:15.087 15604 Delete type=2 #15
+2018/01/28-14:40:15.087 15604 Delete type=2 #7
+2018/01/28-14:40:15.105 15604 Delete type=2 #9
