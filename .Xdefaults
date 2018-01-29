@@ -1,3 +1,4 @@
+
 !font
 URxvt.font: xft:NovaMono for Powerline:size=12
 !border
@@ -9,40 +10,27 @@ URxvt.pastableTabs: true
 URxvt.scrollBar:    false
 
 
+URxvt.background: #151B1A
+URxvt.foreground: #8FA388
 
-! special
-URxvt.foreground:   #cfcfc2
-URxvt.background:   #232629
-URxvt.cursorColor:  #cfcfc2
+! Alternate foreground
+!URxvt.foreground: #7E9982
 
-! black
-URxvt.color0:       #2a2e32
-URxvt.color8:       #31363b
+URxvt.cursorColor: #9E6438
 
-! red
-URxvt.color1:       #c0392b
-URxvt.color9:       #f44f4f
-
-! green
-URxvt.color2:       #218058
-URxvt.color10:      #36BFDB
-
-! yellow
-URxvt.color3:       #fdbc4b
-URxvt.color11:      #fdbc4b
-
-! blue
-URxvt.color4:       #2980b9
-URxvt.color12:      #0099ff
-
-! magenta
-URxvt.color5:       #8e44ad
-URxvt.color13:      #af81ff
-
-! cyan
-URxvt.color6:       #27aeae
-URxvt.color14:      #31dddd
-
-! white
-URxvt.color7:       #acada1
-URxvt.color15:      #cfd0c2
+URxvt.color0: #2E2B38
+URxvt.color1: #984E66
+URxvt.color2: #7A8C54
+URxvt.color3: #9E6438
+URxvt.color4: #395667
+URxvt.color5: #9D916B
+URxvt.color6: #536556
+URxvt.color7: #828181
+URxvt.color8: #474159
+URxvt.color9: #A86D56
+URxvt.color10: #9FB274
+URxvt.color11: #B29F5E
+URxvt.color12: #507A91
+URxvt.color13: #B89855
+URxvt.color14: #7E9982
+URxvt.color15: #BDBDA4
